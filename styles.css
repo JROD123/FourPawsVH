@@ -1,6 +1,7 @@
 body {
   position: relative;
 }
+.overlay,
 .sideMenu {
   position: fixed;
   bottom: 0;
@@ -11,9 +12,10 @@ body {
   opacity: 0;
   right: 0%;
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.525);
+  background-color: rgba(0, 0, 0, 0.825);
   z-index: 998;
   transition: all ease 0.4s;
+  pointer-events: none;
 }
 
 .sideMenu,
@@ -436,7 +438,7 @@ a:focus {
 
 .navbar-inverse {
   border-bottom: none;
-  background-color: #6d2a80;
+  background-color: #6d2a8000;
 }
 
 .navbar-inverse .navbar-brand {
