@@ -1707,7 +1707,7 @@ mb-3 {
 }
 
 @media (max-width: 768px) {
-  .bodylogo-row {
+  #bodylogo-row {
     margin-top: 160px;
   }
 
@@ -1718,13 +1718,16 @@ mb-3 {
 }
 
 @media (max-width: 414px) {
-  .bodylogo-row {
+  #bodylogo-row {
     margin-top: 50px;
   }
 }
-
+/*----iphone6/7/8------*/
 @media (max-width: 411px) {
-  .bodylogo-row {
+  .HomeContainer {
+    margin-top: 100px;
+  }
+  #bodylogo-row {
     margin-top: 35px;
   }
 
@@ -1738,9 +1741,26 @@ mb-3 {
     line-height: 33px;
     margin-top: 120px;
   }
-
+  .HomeLogo {
+    margin-top: 30px;
+    height: 170px;
+  }
   #bodylogo {
-    font-size: 42px;
+    font-size: 39px;
+    margin-bottom: 70px;
+  }
+  .BodyCTA {
+    margin-top: 0px;
+    height: 60px;
+    width: 70%;
+  }
+  .DesktopVerb-row {
+    padding: 10px;
+    padding-top: 70px;
+    height: 90px;
+  }
+  .col-md-5 {
+    margin-top: -28px;
   }
 }
 
@@ -1783,7 +1803,7 @@ mb-3 {
     font-size: 32px;
   }
 }
-
+/*----iphone5----*/
 @media (max-width: 320px) {
   #Map {
     height: 190px;
@@ -1813,6 +1833,7 @@ mb-3 {
   }
 
   #bodylogo {
-    height: 250px;
+    height: 50px;
+    margin-bottom: 0px;
   }
 }
