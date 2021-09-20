@@ -53,6 +53,7 @@ $(".nav-link").click(function () {
   $(".icon").toggleClass("close");
 });
 
+//Modal//
 $(document).ready(function () {
   $("#submit").click(function () {
     var name = $("#firstname").val();
