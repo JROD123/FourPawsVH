@@ -404,6 +404,11 @@ a:focus {
   float: left;
 }
 
+.HomeLogo {
+  height: 170%;
+  display: none;
+}
+
 .LogoBlock {
   display: none;
 }
@@ -1508,6 +1513,11 @@ mb-3 {
     display: none;
   }
 
+  .HomeLogo {
+    height: 90px;
+    text-align: center;
+    display: inline-block;
+  }
   .AboutImage {
     margin-right: 0px;
   }
@@ -1532,7 +1542,7 @@ mb-3 {
   .HelpText {
     margin-top: -60px;
     font-size: 38px;
-    display: block;
+    display: none;
     letter-spacing: 3px;
   }
 
