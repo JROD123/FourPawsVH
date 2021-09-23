@@ -5,7 +5,7 @@ $(document).ready(function () {
 
     $("html, body").animate(
       {
-        scrollTop: $($.attr(this, "href")).offset().top - 190,
+        scrollTop: $($.attr(this, "href")).offset().top - 220,
       },
       1000
     );

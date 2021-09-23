@@ -37,21 +37,7 @@ window.onload = function () {
     : console.log("sidebarNavigation Requires jQuery");
 };
 
-$("Navbtn").click(function () {
-  $(".icon").toggleClass("close");
-});
-
-$(".myNavbar .nav-item").click(function () {
-  $(".icon").toggleClass("close");
-});
-
-$("#wrapper").click(function () {
-  $(".icon").toggleClass("close");
-});
-
-$(".nav-link").click(function () {
-  $(".icon").toggleClass("close");
-});
+//Hamburger Toggle Used to go here//
 
 //Modal//
 $(document).ready(function () {

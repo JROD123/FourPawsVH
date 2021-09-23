@@ -1,6 +1,135 @@
 body {
   position: relative;
 }
+.cntr_Body {
+  margin-top: 230px;
+  max-width: 70em;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 50px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.txt_TheFinest {
+  display: block;
+}
+.txt_FourPaws {
+  display: none;
+}
+.img_Logo {
+  display: none;
+  z-index: -10;
+}
+.row_Header {
+  padding-left: 200px;
+}
+.img_WomanWithDog {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 500px;
+}
+.row_CTA {
+  padding-left: 200px;
+}
+.row_Image {
+  text-align: start;
+}
+#btn_CTA {
+  border-radius: 50px;
+  height: 50px;
+  width: 50%;
+  max-width: 50%;
+  transition: all 0.5s ease;
+  background-color: #6d2a80;
+  border: 3px solid rgba(255, 255, 255, 0);
+  letter-spacing: 3.25px;
+  margin-top: 50px;
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  z-index: 100;
+}
+#btn_CTA:hover {
+    background-color: #4d1d5b;
+}
+.txt_About{
+    margin-top: 790px;
+    margin-bottom: 80px;
+}
+p{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  letter-spacing: 2.25px;
+  line-height: 32px;
+  text-align: left;
+  color: white;
+  margin-left: 12px;
+}
+.img_Puppy{
+    border-radius: 50%;
+    height: 200px;
+    border: 4px solid white;
+}
+.txt_AboutParagraphOne{
+    padding-top: 30px;
+}
+.txt_AboutParagraphTwo{
+    margin-top: 30px;
+}
+.Philosophy-row{
+    margin-bottom: 450px;
+}
+h3{
+    color: white;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2.25px;
+  line-height: 34px;
+font-weight: 600;
+}
+.txt_Convenience{
+    text-align: center;
+}
+h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+  letter-spacing: 2.25px;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center; 
+}
+form{
+    margin-bottom: 430px;
+}
+.RecordsVerbiage {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 2.25px;
+    line-height: 32px;
+    text-align: left;
+    color: white;
+    margin-top: 45px;
+    margin-bottom: 60px;
+  }
+  .AboutVerbiage {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 2.25px;
+    line-height: 32px;
+    text-align: left;
+    color: white;
+    margin-left: 12px;
+  }
 .overlay,
 .sideMenu {
   position: fixed;
@@ -38,8 +167,8 @@ body {
 
 .sideMenu {
   right: -50%;
-  top: 50px;
-  transition: all ease-in-out 0.25s;
+  top: 80px;
+  transition: all ease-in-out 0.6s;
   overflow: hidden;
   width: 100%;
   max-width: 50%;
@@ -77,16 +206,6 @@ a:focus {
   outline: none;
 }
 
-#bodylogo {
-  height: 300px;
-  margin-top: 20px;
-  display: none;
-}
-
-.bodylogo-row {
-  text-align: center;
-}
-
 .container-fluid {
   text-align: center;
 }
@@ -94,24 +213,6 @@ a:focus {
 .navbar-toggle {
   margin-bottom: -2px;
   margin-top: 4px;
-}
-
-.HomeContainer {
-  text-align: center;
-  max-width: 70em;
-  margin-top: 150px;
-}
-
-.AboutContainer {
-  text-align: center;
-  max-width: 50em;
-  margin-top: 150px;
-}
-
-.DesktopVerb-row {
-  height: 150px;
-  padding: 10px;
-  padding-top: 60px;
 }
 
 .About-row {
@@ -134,132 +235,12 @@ a:focus {
   height: 37px;
 }
 
-.HelpText {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 40px;
-  color: white;
-  letter-spacing: 2px;
-}
-
 .Button-row {
   height: 50px;
 }
 
-.Explorer-row {
-  height: 200px;
-}
-
-.Explorer2-row {
-  height: 200px;
-}
-
-.DesktopImage {
-  height: 20px;
-  margin-top: 55px;
-  margin-right: 30px;
-}
-
-.AboutImage {
-  border-radius: 50%;
-  margin-right: 30px;
-}
-
-.Frenchton {
-  border-radius: 50%;
-  height: 200px;
-  border: 4px solid white;
-}
-
 #Layer_11 {
   height: 190px;
-}
-
-.BodyCTA {
-  border-radius: 50px;
-  height: 50px;
-  width: 50%;
-  background-color: #6d2a80;
-  border: 3px solid rgba(255, 255, 255, 0);
-  letter-spacing: 3.25px;
-  margin-top: 50px;
-  font-size: 20px;
-  color: white;
-}
-
-.BodyCTA:focus {
-  outline: none;
-}
-
-#Explorer2 {
-  height: 200px;
-}
-
-.AboutHeader {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 40px;
-  color: white;
-  letter-spacing: 2px;
-  margin-top: 250px;
-  margin-bottom: 40px;
-}
-
-.AboutVerbiage {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 100;
-  font-size: 18px;
-  letter-spacing: 2.25px;
-  line-height: 32px;
-  text-align: left;
-  color: white;
-  margin-left: 12px;
-}
-
-.AboutVerbiage2 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 100;
-  font-size: 18px;
-  letter-spacing: 2.25px;
-  line-height: 32px;
-  text-align: left;
-  color: white;
-  margin-top: 20px;
-  margin-bottom: 60px;
-}
-
-.PromiseVerbiage {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 100;
-  font-size: 18px;
-  letter-spacing: 2.25px;
-  line-height: 32px;
-  text-align: center;
-  color: white;
-  margin-top: 20px;
-  margin-bottom: 60px;
-}
-
-.RecordsVerbiage {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 100;
-  font-size: 18px;
-  letter-spacing: 2.25px;
-  line-height: 32px;
-  text-align: left;
-  color: white;
-  margin-top: 45px;
-  margin-bottom: 60px;
-}
-
-.DonateHeader {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 40px;
-  color: white;
-  letter-spacing: 2px;
-  margin-top: 250px;
-  margin-bottom: 40px;
 }
 
 .DonateContainer {
@@ -276,48 +257,6 @@ a:focus {
   letter-spacing: 1px;
   margin-top: 50px;
   margin-bottom: 40px;
-}
-
-.CCContainer {
-  text-align: center;
-  max-width: 50em;
-  margin-top: 50px;
-}
-
-.ContactContainer {
-  text-align: center;
-  max-width: 65em;
-  margin-top: 100px;
-  margin-bottom: 250px;
-}
-
-.ContactHeader {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 40px;
-  color: white;
-  letter-spacing: 2.25px;
-  margin-top: 250px;
-  margin-bottom: 60px;
-}
-
-.ContactVerbiage {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 100;
-  font-size: 20px;
-  letter-spacing: 2.25px;
-  line-height: 110px;
-  text-align: center;
-  color: white;
-}
-
-#Map {
-  height: 240px;
-}
-
-.jumbotron {
-  background-color: #31708f;
-  padding-bottom: 8px;
 }
 
 .logohome {
@@ -340,35 +279,6 @@ a:focus {
   height: 30px;
 }
 
-#BluLogo {
-  height: 30px;
-  margin-left: 10px;
-  margin-left: 10px;
-}
-
-.me {
-  margin-top: 70px;
-  margin-bottom: -162px;
-  height: 155px;
-  border-radius: 50%;
-  border: #a3fcff solid 2px;
-}
-
-.display-3 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 32px;
-  padding-top: 44px;
-  margin-bottom: 10px;
-}
-
-.lead {
-  font-family: "Open Sans", sans-serif;
-  margin-top: -9px;
-  font-size: 14px;
-  margin-bottom: 22px;
-}
-
 .DesktopMenu {
   float: right;
   margin-top: 10px;
@@ -389,7 +299,7 @@ a:focus {
 
 .nav {
   text-align: right;
-  padding-right: 10px;
+  padding-right: 0px;
 }
 
 .nav > li {
@@ -404,11 +314,13 @@ a:focus {
   float: left;
 }
 
-.HomeLogo {
-  height: 170%;
-  display: none;
+#CTAButton {
+  background-color: #f4752100;
+  color: #298999;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  border-color: rgba(255, 255, 255, 0);
 }
-
 .LogoBlock {
   display: none;
 }
@@ -429,14 +341,6 @@ a:focus {
   font-size: 26px;
 }
 
-.DemoTitle {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  margin-left: 50px;
-  margin-top: -26px;
-}
-
 .navbar-collapse.collapse {
   display: none !important;
 }
@@ -453,7 +357,7 @@ a:focus {
 
 .navbar-inverse .navbar-nav > li > a {
   color: white;
-  transition-duration: 350ms;
+  transition-duration: 750ms;
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
 }
@@ -475,31 +379,7 @@ a:hover {
   background-color: rgba(227, 251, 249, 0.929);
 }
 
-.JRod {
-  color: white;
-}
-
-.JRod:hover {
-  color: #a3fcff;
-}
-
-.player {
-  margin-top: 40px;
-}
-
 /*Mobile navigation*/
-#demoreel {
-  margin-top: 60px;
-}
-
-.uxui {
-  color: white;
-  margin-left: 66px;
-  margin-top: 27px;
-  font-size: 13px;
-  font-weight: 100;
-  letter-spacing: 1.25px;
-}
 
 .fixed-top {
   position: fixed;
@@ -585,19 +465,9 @@ a:hover {
   padding-left: 0px;
 }
 
-.OrangeXA {
-  color: #f47521;
-  font-weight: 400;
-  margin-top: 5px;
-  margin-left: 8px;
-  font-size: 26px;
-  display: none;
-  float: left;
-  letter-spacing: 4px;
-}
-
 #NavCTA {
   border-radius: 50px;
+  transition: all 0.5s ease;
   background-color: #298999;
   border-color: #00000000;
   width: 110px;
@@ -613,6 +483,7 @@ a:hover {
 
 #NavCTA:hover {
   text-decoration: none;
+  background-color: #277482;
 }
 
 #CTAMiddle {
@@ -861,14 +732,6 @@ mb-3 {
   background-color: turquoise;
 }
 
-.col-md-4 {
-  max-width: 100%;
-}
-
-.col-md-5 {
-  margin-top: 22px;
-}
-
 #btn_Home {
   border-radius: 50px;
   background-color: #ffffff;
@@ -891,6 +754,7 @@ mb-3 {
   height: 28px;
   letter-spacing: 1.25px;
   line-height: 0px;
+  font-weight: 600;
 }
 
 #WhiteButton:focus {
@@ -1036,28 +900,6 @@ mb-3 {
   padding-left: 18px;
 }
 
-.Header {
-  text-align: center;
-  color: #a3fcff;
-  font-size: 22px;
-  font-weight: 500;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.BrandStatement {
-  background: #414763;
-  color: white;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 100;
-  line-height: 21px;
-  padding-left: 15px;
-  padding-right: 15px;
-  letter-spacing: 0.5px;
-  text-align: justify;
-  padding-bottom: 20px;
-}
-
 .parallax1 {
   background: transparent;
   min-height: 500px;
@@ -1132,16 +974,35 @@ mb-3 {
   outline: none;
 }
 
+.ContactContainer {
+    text-align: center;
+    max-width: 65em;
+    margin-top: 100px;
+    margin-bottom: 250px;
+}
+.ContactHeader {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+    letter-spacing: 2.25px;
+    margin-top: 250px;
+    margin-bottom: 60px;
+}
+#Map {
+    height: 240px;
+}
+.ContactVerbiage {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 2.25px;
+    line-height: 110px;
+    text-align: center;
+    color: white;
+}
 /* Desktop navigation */
 @media (min-width: 576px) {
-  #lottie {
-    height: 350px;
-    margin-top: 170px;
-  }
-
-  #demoreel {
-    margin-top: 51px;
-  }
 }
 
 @media (max-width: 767px) {
@@ -1160,37 +1021,12 @@ mb-3 {
 }
 
 @media (min-width: 768px) {
-  .jumbotron h1 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 33px;
-    padding-top: 95px;
-    color: white;
-  }
-
-  .jumbotron p {
-    margin-top: -10px;
-    margin-bottom: 5px;
-    color: white;
-  }
-
-  .profile-container {
-    margin-bottom: -168px;
-  }
-
   .fixed-top {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 1030;
-  }
-
-  .display-3 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    font-size: 56px;
-    margin-top: 0px;
   }
 
   .navbar {
@@ -1210,31 +1046,6 @@ mb-3 {
     margin-top: -10px;
   }
 
-  .me {
-    margin-top: 40px;
-    margin-bottom: 10px;
-    height: 200px;
-    border-radius: 50%;
-    border: #a3fcff solid 2px;
-  }
-
-  .lead {
-    font-size: 24px;
-    padding-bottom: 10px;
-    color: #414763;
-  }
-
-  .uxui {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 100;
-    color: white;
-    margin-left: 60px;
-    margin-bottom: 0px;
-    margin-top: 23px;
-    font-size: 13px;
-    letter-spacing: 0.75px;
-  }
-
   #logo {
     color: white;
     height: 24px;
@@ -1245,63 +1056,12 @@ mb-3 {
     letter-spacing: 2.75px;
   }
 
-  #Layer_2 {
-    height: 44px;
-    margin-right: 2px;
-    margin-bottom: -65px;
-  }
-
-  #Bolt {
-    height: 44px;
-    margin-left: -62px;
-    margin-bottom: -65px;
-  }
-
-  #HourGlass {
-    height: 41px;
-    margin-left: -56px;
-    margin-bottom: -61px;
-  }
-
-  #LightBlue {
-    color: #a3fcff;
-  }
-
-  #Education {
-    height: 35px;
-    margin-left: -63px;
-    margin-bottom: -58px;
-  }
-
-  .Header {
-    font-size: 30px;
-    font-weight: 500;
-    color: #a3fcff;
-    text-align: left;
-    margin-bottom: 40px;
-  }
-
-  .ColorCont {
-    background-color: aqua;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-
-  .content {
-    padding-top: 0px;
-  }
-
   .navbar-toggle {
     margin-bottom: -2px;
   }
 }
 /*-----Tablet-----*/
 @media (min-width: 768px) {
-  #lottie {
-    height: 350px;
-    margin-top: 250px;
-  }
-
   .navbar-light .navbar-nav .nav-link::after {
     content: "";
     display: inline;
@@ -1313,14 +1073,6 @@ mb-3 {
     margin-bottom: -2px;
     transition-duration: 350ms;
     line-height: 37px;
-  }
-
-  .lead {
-    padding-bottom: 10px;
-  }
-
-  .me {
-    margin-bottom: 10px;
   }
 
   .navbar-light .navbar-nav .nav-link:hover {
@@ -1337,13 +1089,6 @@ mb-3 {
     margin-bottom: -2px;
     line-height: 37px;
     font-weight: 600;
-  }
-
-  .display-3 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    font-size: 56px;
-    margin-top: 0px;
   }
 
   .navbar-light .navbar-nav .nav-link:active {
@@ -1380,45 +1125,6 @@ mb-3 {
 
   .navbar-toggle {
     margin-bottom: -2px;
-  }
-
-  .BrandStatement {
-    font-family: "Open Sans", sans-serif;
-    padding-left: 130px;
-    padding-right: 130px;
-    padding-top: 60px;
-    padding-bottom: 70px;
-    margin-bottom: 70px;
-    margin-top: 22px;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 28px;
-    background: #414763;
-    color: white;
-    text-align: center;
-    letter-spacing: 0.5px;
-  }
-
-  .Header {
-    text-align: center;
-  }
-
-  #Bolt {
-    height: 42px;
-    margin-left: -4px;
-    margin-bottom: -107px;
-  }
-
-  #Education {
-    height: 44px;
-    margin-left: -8px;
-    margin-bottom: -108px;
-  }
-
-  #HourGlass {
-    height: 44px;
-    margin-left: -8px;
-    margin-bottom: -108px;
   }
 
   .content {
@@ -1473,19 +1179,8 @@ mb-3 {
   }
 }
 
-@media (max-width: 767px) {
-  .OrangeXA {
-    display: block;
-    float: left;
-  }
-}
 
 @media (min-width: 768px) {
-  #lottie {
-    height: 420px;
-    margin-top: 230px;
-  }
-
   .nav-link {
     padding: 0.55rem 1rem;
   }
@@ -1499,53 +1194,35 @@ mb-3 {
 }
 
 @media (max-width: 990px) {
-  .AboutVerbiage {
-    margin-left: 0px;
-  }
-
   #SubmitBtn {
     margin-top: 50px;
   }
 }
 
 @media (max-width: 991px) {
-  .DesktopImage {
+  .txt_TheFinest {
     display: none;
   }
-
-  .HomeLogo {
-    height: 90px;
-    text-align: center;
-    display: inline-block;
-  }
-  .AboutImage {
-    margin-right: 0px;
-  }
-
-  .Explorer2-row {
-    margin-bottom: 20px;
-  }
-
-  .AboutHeader {
-    margin-top: 0px;
-  }
-
-  #bodylogo {
-    height: 0px;
-    font-size: 60px;
-    display: inline-block;
-    text-align: center;
-    padding-right: 4px;
-    color: white;
-  }
-
-  .HelpText {
-    margin-top: -60px;
-    font-size: 38px;
+  .img_WomanWithDog {
     display: none;
-    letter-spacing: 3px;
   }
-
+  .cntr_Body {
+    max-width: 36em;
+    margin-top: 150px;
+  }
+  .txt_FourPaws {
+    display: block;
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: -0.25px;
+    font-family: "Yantramanav", sans-serif;
+  }
+  .img_Logo {
+    display: inline-block;
+    align-items: center;
+    height: 160px;
+    margin-top: 20px;
+  }
   .DonateBody {
     display: none;
   }
@@ -1553,11 +1230,6 @@ mb-3 {
 
 /*-----XL Desktop------*/
 @media (min-width: 990px) {
-  #lottie {
-    height: 420px;
-    margin-top: 210px;
-  }
-
   .form-group {
     padding-left: 15px;
     padding-right: 15px;
@@ -1577,56 +1249,6 @@ mb-3 {
   .form-Submit {
     margin-bottom: 20px;
   }
-
-  .display-3 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    font-size: 56px;
-    margin-top: 0px;
-  }
-
-  .me {
-    margin-bottom: 10px;
-  }
-
-  .BrandStatement {
-    font-size: 20px;
-    font-weight: 300px;
-    line-height: 28px;
-    letter-spacing: 0.5px;
-    padding-left: 230px;
-    padding-right: 230px;
-    padding-top: 60px;
-    margin-top: 22px;
-    padding-bottom: 70px;
-    text-align: left;
-  }
-
-  #Bolt {
-    height: 38px;
-    margin-left: -56px;
-    margin-bottom: -63px;
-  }
-
-  #HourGlass {
-    height: 34px;
-    margin-left: -53px;
-    margin-bottom: -58px;
-  }
-
-  #Education {
-    height: 32px;
-    margin-left: -63px;
-    margin-bottom: -58px;
-  }
-
-  .content {
-    padding-top: 0px;
-  }
-
-  .Header {
-    text-align: left;
-  }
 }
 
 .navbar-toggle {
@@ -1634,13 +1256,6 @@ mb-3 {
 }
 
 @media (min-width: 1024px) {
-  .HomeContainer {
-    margin-top: 190px;
-  }
-
-  .AboutContainer {
-    margin-top: 190px;
-  }
 }
 
 /*-----Collapse Buttons Sooner------*/
@@ -1682,158 +1297,397 @@ mb-3 {
   #WhiteButton {
     background-color: rgba(255, 255, 255, 0);
     letter-spacing: 2.5px;
-  }
-
-  #CTAButton {
-    background-color: #f4752100;
-    color: #298999;
-    font-weight: 600;
-    letter-spacing: 2.5px;
-    border-color: rgba(255, 255, 255, 0);
+    text-align: end;
   }
 }
-
-@media (min-width: 1024px) {
-  #lottie {
-    height: 420px;
-    margin-top: 200px;
-  }
+@media (max-width: 990px) {
+    form{
+        margin-bottom: 10px;
+    }
+@media (max-width: 976px) {
+    #btn_CTA{
+    margin-bottom: 350px;   
+    }
+    form{
+    margin-bottom: 10px;
+    }
 }
-
-@media (max-width: 1024px) {
-  .AboutContainer {
-    margin-top: 110px;
-  }
-}
-
+/*----iPad-----*/
 @media (max-width: 768px) {
-  #bodylogo-row {
-    margin-top: 160px;
-  }
-
-  .HelpText {
-    margin-top: -74px;
-    font-size: 15px;
-  }
+    #btn_CTA{
+    margin-bottom: 350px;   
 }
-
-@media (max-width: 414px) {
-  #bodylogo-row {
-    margin-top: 50px;
-  }
+h2{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+form{
+    margin-bottom: 10px;
+}
+#SubmitBtn{
+margin-top: 20px;
+margin-bottom: 200px;
+}
 }
 /*----iphone6/7/8------*/
+@media (max-width: 414px) {
+    #btn_CTA {
+        width: 80%;
+        max-width: 80%;
+        margin-bottom: 250px;
+    }
+    p{
+        font-size: 20px;
+        margin-left: 0px; 
+    }
+    .col-md-9{
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    .col-md-12{
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    h2{
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    h3{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .Philosophy-row{
+        margin-bottom: 200px;
+    }
+    form{
+        margin-bottom: 50px;
+    }
+    #YN{
+        padding-bottom: 50px;
+    }
+    #SubmitBtn{
+        margin-top: -10px;
+        margin-bottom: 200px;
+    }
+    #CTAMiddle {
+        margin-left: -10px;
+    }
+    .ContactHeader {
+        margin-top: -10px;
+    }
+    .FooterNav {
+        font-size: 16px;
+    }
+    .footer-row{
+        text-align: center;
+    }
+}
+/*----Pixel------*/
 @media (max-width: 411px) {
-  .HomeContainer {
-    margin-top: 100px;
+    .btn_CTA{
+        font-size: 19px;
+    }
+    p{
+        font-size: 26px;
+        line-height: 34px;
+    }
+    #CTAMiddle{
+        margin-right: 24px;
+    }
+    .credit{
+        text-align: center;
+      }
+}
+/*----iphoneX------*/
+@media (max-width: 375px) {
+  .txt_FourPaws {
+    font-size: 48px;
   }
-  #bodylogo-row {
-    margin-top: 35px;
+  .cntr_Body {
+    margin-top: 160px;
+    width: 100%;
   }
-
-  .AboutVerbiage {
-    font-size: 20px;
-    line-height: 33px;
+  .img_Logo {
+    margin-top: 15px;
+    height: 130px;
   }
-
-  .AboutVerbiage2 {
-    font-size: 20px;
-    line-height: 33px;
-    margin-top: 120px;
+  .btn_CTA {
+    width: 70%;
+    max-width: 70%;
+    font-size: 19px;
+    margin-top: 40px;
   }
-  .HomeLogo {
-    margin-top: 30px;
-    height: 170px;
+  #CTAMiddle {
+    font-size: 13px;
+    letter-spacing: 0.75px;
+    margin-left: -3px;
   }
-  #bodylogo {
-    font-size: 39px;
-    margin-bottom: 70px;
-  }
-  .BodyCTA {
-    margin-top: 0px;
-    height: 60px;
+  #CTAButton {
+    letter-spacing: 1.09px;
+    max-width: 70%;
     width: 70%;
   }
-  .DesktopVerb-row {
-    padding: 10px;
-    padding-top: 70px;
-    height: 90px;
+  .ContactHeader {
+    margin-top: -50px;
   }
-  .col-md-5 {
-    margin-top: -28px;
-  }
-}
-
-@media (max-width: 375px) {
-  #Map {
+  #Map{
     height: 220px;
   }
-
-  .AboutVerbiage2 {
-    margin-top: 120px;
+  .FooterNav {
+      font-size: 16px;
   }
-
-  .bodylogo-row {
-    margin-top: 20px;
+  .footer-row{
+      text-align: center;
+  }
+  .credit{
+    text-align: center;
   }
 }
-
+/*----MotoG4----*/
 @media (max-width: 360px) {
-  #Map {
-    height: 210px;
-  }
-
-  .bodylogo-row {
-    margin-top: 0px;
-  }
-
-  .AboutVerbiage2 {
-    margin-top: 150px;
-  }
-
-  .col-12 .AboutVerbiage2 {
-    margin-top: 30px;
-  }
-
-  .HelpText {
-    font-size: 16px;
-  }
-
-  #bodylogo {
-    font-size: 32px;
-  }
+    .cntr_Body {
+        width: 100%;
+        margin-top: 130px;
+    }
+    #btn_CTA {
+        width: 80%;
+        max-width: 80%;
+        margin-bottom: 250px;
+    }
+    h1{
+      font-size: 40px;
+    }
+    .img_Puppy{
+        height: 190px;
+    }
+    p{
+        font-size: 20px;
+        margin-left: 0px; 
+    }
+    .col-md-9{
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    .col-md-12{
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    h3{
+        font-weight: 400;
+    }
+    .Philosophy-row{
+        margin-bottom: 250px;
+    }
+    h2{
+        font-size: 28px;
+        margin-top: 100px;
+        margin-bottom: 10px;
+    }
+    form{
+        margin-bottom: 10px;
+    }
+    .RecordsVerbiage{
+        font-size: 17px;
+    }
+    #YN{
+        padding-bottom: 40px;
+    }
+    #SubmitBtn{
+        margin-top: 10px;
+        margin-bottom:200px;
+    }
+    #CTAButton {
+        letter-spacing: 1.99px;
+        max-width: 80%;
+        width: 80%;
+    }
+    .img_Logo {
+        margin-top: 23px;
+    }
+    #Map {
+        height: 210px;
+      }
+      .footer-row{
+          text-align: center;
+      }
+      .credit{
+        text-align: center;
+      }
 }
 /*----iphone5----*/
 @media (max-width: 320px) {
+  .txt_FourPaws {
+    font-size: 38px;
+  }
+  .cntr_Body {
+    margin-top: 100px;
+    width: 100%;
+  }
+  .img_Logo {
+    margin-top: 16px;
+    height: 130px;
+  }
+  #btn_CTA {
+    width: 80%;
+    max-width: 80%;
+    font-size: 19px;
+    margin-top: 40px;
+    margin-bottom: 220px;
+  }
+  h1{
+      font-size: 36px;
+  }
+  .img_Puppy{
+      height: 180px;
+  }
+  p{
+    font-size: 20px;
+    margin-left: 0px; 
+  }
+  .col-md-9{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .col-md-12{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  h3{
+      font-weight: 400;
+  }
+  .Philosophy-row{
+      margin-bottom: 200px;
+  }
+  h2{
+      margin-top: 72px;
+      margin-bottom: 18px;
+      font-weight: 400;
+      font-size: 26px;
+  }
+  form{
+      margin-bottom: -20px;
+  }
+  #SubmitBtn{
+    margin-top: 10px;
+    margin-bottom:200px;
+  }
+  #YN{
+      padding-bottom:50px;
+  }
+  #CTAMiddle {
+    font-size: 13px;
+    letter-spacing: 0.75px;
+    margin-left: -14px;
+  }
+  #CTAButton {
+    letter-spacing: 1px;
+    width: 90%;
+    max-width: 90%;
+    margin-left: 17px;
+  }
   #Map {
     height: 190px;
   }
-
-  .AboutHeader {
-    font-size: 36px;
+  #footerlogo{
+      height: 130px;
   }
-
-  .AboutVerbiage {
-    font-size: 20px;
-    line-height: 33px;
+  .credit{
+    text-align: center;
   }
+}
 
-  .AboutVerbiage2 {
-    font-size: 20px;
-    line-height: 33px;
-    margin-top: 190px;
+/*----GalaxyFold----*/
+@media (max-width: 280px) {
+  .txt_FourPaws {
+    font-size: 37px;
   }
-
-  .DonateHeader {
-    font-size: 36px;
+  .cntr_Body {
+    margin-top: 120px;
+    width: 100%;
   }
-
+  .img_Logo {
+    margin-top: 10px;
+    height: 140px;
+  }
+  #btn_CTA {
+    width: 90%;
+    max-width: 90%;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 220px;
+  }
+  h1{
+      font-size: 36px;
+  }
+  .img_Puppy{
+      height: 180px;
+  }
+  .col-md-9{
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  .col-md-12{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  p{
+      font-size: 22px;
+      margin-left: 0px;
+  }
+  h3{
+      font-weight: 100;
+      font-size: 24px;
+      line-height: 31px;
+  }
+  .Philosophy-row{
+      margin-bottom: 300px;
+  }
+  h2{
+      font-size: 24px;
+      font-weight: 400;
+      margin-top: 80px;
+      margin-bottom: 20px;
+  }
+  .form-check-label{
+      font-size: 12px;
+  }
+  form{
+      margin-bottom: 20px;
+  }
+  .RecordsVerbiage{
+      font-size: 16px;
+  }
+  #YN{
+      margin-top: -90px;
+      padding-bottom: 30px;
+  }
+  .DonateContainer{
+      margin-top: 40px;
+  }
+  #CTAMiddle {
+    font-size: 12px;
+    letter-spacing: 0.75px;
+    margin-left: -5px;
+  }
+  #CTAButton {
+    letter-spacing: 2px;
+    width: 110%;
+    max-width: 110%;
+    margin-left: -10px;
+  }
+  #Map{
+      height: 160px;
+  }
   .ContactHeader {
-    font-size: 36px;
+      margin-top: 20px;
   }
-
-  #bodylogo {
-    height: 50px;
-    margin-bottom: 0px;
+  #footerlogo {
+      height:130px;
+  }
+  .FooterNav{ 
+  font-size: 14px;
+    }
+  .credit{
+    text-align: center;
   }
 }
