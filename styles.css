@@ -318,8 +318,13 @@ a:focus {
   background-color: #f4752100;
   color: #298999;
   font-weight: 600;
-  letter-spacing: 2.5px;
   border-color: rgba(255, 255, 255, 0);
+  border-radius: 50px;
+  width: 110px;
+  height: 28px;
+  letter-spacing: 1.25px;
+  line-height: 0px;
+  font-weight: 600;
 }
 .LogoBlock {
   display: none;
@@ -1293,7 +1298,6 @@ mb-3 {
   #CTAMiddle {
     display: inline-block;
   }
-
   #WhiteButton {
     background-color: rgba(255, 255, 255, 0);
     letter-spacing: 2.5px;
@@ -1375,9 +1379,7 @@ margin-bottom: 200px;
     .ContactHeader {
         margin-top: -10px;
     }
-    #CTAButton {
-      letter-spacing: 1.09px;
-    }
+    
     .FooterNav {
         font-size: 16px;
     }
@@ -1397,9 +1399,7 @@ margin-bottom: 200px;
     #CTAMiddle{
         margin-right: 24px;
     }
-    #CTAButton {
-      letter-spacing: 1.09px;
-    }
+   
     .credit{
         text-align: center;
       }
@@ -1428,11 +1428,7 @@ margin-bottom: 200px;
     letter-spacing: 0.75px;
     margin-left: -3px;
   }
-  #CTAButton {
-    letter-spacing: 1.09px;
-    max-width: 70%;
-    width: 70%;
-  }
+ 
   .ContactHeader {
     margin-top: -50px;
   }
@@ -1502,11 +1498,7 @@ margin-bottom: 200px;
         margin-top: 10px;
         margin-bottom:200px;
     }
-    #CTAButton {
-        letter-spacing: 1.09px;
-        max-width: 80%;
-        width: 80%;
-    }
+  
     .img_Logo {
         margin-top: 23px;
     }
@@ -1585,12 +1577,7 @@ margin-bottom: 200px;
     letter-spacing: 0.75px;
     margin-left: -14px;
   }
-  #CTAButton {
-    letter-spacing: 1px;
-    width: 90%;
-    max-width: 90%;
-    margin-left: 17px;
-  }
+ 
   #Map {
     height: 190px;
   }
@@ -1675,12 +1662,7 @@ margin-bottom: 200px;
     letter-spacing: 0.75px;
     margin-left: -5px;
   }
-  #CTAButton {
-    letter-spacing: 1.09px;
-    width: 110%;
-    max-width: 110%;
-    margin-left: -10px;
-  }
+ 
   #Map{
       height: 160px;
   }
