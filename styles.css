@@ -171,7 +171,7 @@ form{
   transition: all ease-in-out 0.6s;
   overflow: hidden;
   width: 100%;
-  max-width: 50%;
+  max-width: 90%;
 }
 
 .sideMenu.open {
@@ -325,6 +325,7 @@ a:focus {
   letter-spacing: 1.25px;
   line-height: 0px;
   font-weight: 600;
+  text-align: end;
 }
 .LogoBlock {
   display: none;
@@ -1301,6 +1302,9 @@ mb-3 {
   #WhiteButton {
     background-color: rgba(255, 255, 255, 0);
     letter-spacing: 2.5px;
+    text-align: end;
+  }
+  #CTAButton {
     text-align: end;
   }
 }
