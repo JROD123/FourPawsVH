@@ -758,11 +758,10 @@ mb-3 {
   font-size: 14px;
   color: #298999;
   border-color: #00000000;
-  width: 110px;
-  letter-spacing: .21px;
+  letter-spacing: 1px;
   line-height: 0px;
   font-weight: 600;
-  text-align: end;
+  padding-right: 5px;
 }
 
 .form {
