@@ -318,12 +318,12 @@ a:focus {
   background-color: #f4752100;
   color: #298999;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 14px;
   border-color: rgba(255, 255, 255, 0);
   border-radius: 50px;
   width: 110px;
   height: 28px;
-  letter-spacing: 1.09px;
+  letter-spacing: .59px;
   line-height: 0px;
   font-weight: 600;
   text-align: end;
