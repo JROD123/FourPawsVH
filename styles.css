@@ -323,9 +323,8 @@ a:focus {
   border-radius: 50px;
   width: 110px;
   height: 28px;
-  letter-spacing: .59px;
+  letter-spacing: .01px;
   line-height: 0px;
-  font-weight: 600;
   text-align: end;
 }
 .LogoBlock {
