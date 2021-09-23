@@ -1303,7 +1303,7 @@ mb-3 {
   }
   #CTAButton {
     background-color: rgba(255, 255, 255, 0);
-    letter-spacing: .01px;
+    letter-spacing: 1px;
     text-align: end;
   }
 }
